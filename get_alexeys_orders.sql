@@ -1,3 +1,5 @@
+CREATE INDEX c_name ON CUSTOMERS (name);
+
 select o.product_name
 from ORDERS o
          join CUSTOMERS c
